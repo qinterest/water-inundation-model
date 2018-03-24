@@ -8,5 +8,5 @@ Code was written in Python 3.6.3.
 
 # Scripts lists
 ## 0extractAdmregion.py
-    - helps to extract city from china map
-    - get the row and col num of landsat
+* helps to extract city from china map
+* get the row and col num of landsat
