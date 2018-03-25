@@ -10,3 +10,7 @@ Code was written in Python 3.6.3.
 ## 0extractAdmregion.py
 * Extract city from china map
 * Get the row and col num of landsat
+
+## GetDataAttr.py
+* Get row,path,date form landsat files
+* Make pd.DataFrame
