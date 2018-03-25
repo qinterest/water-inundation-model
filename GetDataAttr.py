@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 This script:
-    - get row,path,date form a landsat TM file
+    - get row,path,date form landsat files
 
 reference:
     https://landsat.usgs.gov/what-are-naming-conventions-landsat-scene-identifiers
