@@ -14,3 +14,8 @@ Code was written in Python 3.6.3.
 ## GetDataAttr.py
 * Get row,path,date form landsat files
 * Make pd.DataFrame
+
+## GerRawData
+* Move selected file to Interpretion folder
+* Unzip the file and delete the zipped one
+* Make data list
