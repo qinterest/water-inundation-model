@@ -40,7 +40,7 @@ def addnewrow(df,data):
     return df
 
 def num2str(num,digit):
-    numdigit = len(str(num))  
+    numdigit = len(str(num))
     if digit<numdigit:
         return None
     else:
@@ -71,7 +71,7 @@ for folder in folders:
         ffilemaindf = pd.Series(ffilemain)
         dup = ffilemaindf.duplicated(keep = 'last')
         dupix = dup[dup==True].index
-        for ix in dupix:           
+        for ix in dupix:
             dupfile = ffilelist[ix]
             newpath = os.path.join(path,'dup',dupfile)
             os.rename(ffiles[ix],newpath)
@@ -100,7 +100,7 @@ def countattr(dfslice):
 
 gp=df.groupby(by=['path','row'])
 newdf = gp.size()
-count = np.zeros((len(newdf.index),12),dtype = 'int')  
+count = np.zeros((len(newdf.index),12),dtype = 'int')
 for i in range(len(newdf.index)):
     p,r = newdf.index[i]
     dfslice = prslice(df,p,r)
