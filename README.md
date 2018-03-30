@@ -19,3 +19,7 @@ Code was written in Python 3.6.3.
 * Move selected file to Interpretion folder
 * Unzip the file and delete the zipped one
 * Make data list
+
+## InterpreteByRoi
+* Do image-classfication by existing ROI based on folder
+* Clip classified image
