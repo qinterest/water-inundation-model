@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+ti# -*- coding: utf-8 -*-
 """
 This script:
     - Do image-classfication by existing ROI based on folder
@@ -174,7 +174,7 @@ def processfolder(filepath):
     cf.ClipByMask()
 
 if __name__ == '__main__':
-    path = r'C:\Users\dell\Desktop\test'
+    path = r'C:\Users\dell\Desktop\0331'
     dirs = os.listdir(path)
     while dirs != []:
         processfolder(os.path.join(path,dirs[0]))

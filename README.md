@@ -7,7 +7,7 @@ generate figures
 Code was written in Python 3.6.3.
 
 # Scripts lists
-## 0extractAdmregion.py
+## ExtractAdmregion.py
 * Extract city from china map
 * Get the row and col num of landsat
 
